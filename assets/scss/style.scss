@@ -1,0 +1,67 @@
+@import 'reset';
+
+.concursos {
+    width: 100%;
+    margin: 0 auto;
+
+    .logo {
+        max-width: 130px;
+        max-height: 42px;
+    }
+    .top {
+        padding: 20px 0 60px;
+        background: url('../images/background_concurso.jpg') no-repeat top center;
+        text-align: center;
+        height: 660px;
+    h1 {
+        font-size: 40px;
+        font-family: 'UOLText';
+        color: #fff;
+        margin-bottom: 40px;
+        margin-top: 20px;
+        span {
+            font-family: 'UOLTextLight';
+            font-size: 34px;
+            color: #1e1e1e;
+        }
+    }
+    .images {       
+        max-width: 1050px;
+        margin: 0 auto;
+        display: flex;   
+        
+        .imagescenter {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+    }
+    .btn {
+        font-family: 'UOLText';
+        font-weight: 700;
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+        background: #fb3131;
+        border-radius: 10px;
+        transition: all ease .2s;
+        display: block;
+        margin: 50px auto 12px;
+        width: 395px;
+        padding: 18px 19px;
+        position: relative;
+        top: 0;
+        box-shadow: 0 4px 0 #b81e1e;
+    }
+    .btn:hover {
+        box-shadow: 0 0 0 #b81e1e;
+        top: 4px;
+    }
+    small {
+        font-family: 'UOLText';
+        font-size: 14px;
+        color: #fff;
+    }
+    }
+}
